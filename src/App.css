@@ -160,3 +160,24 @@
   border-radius: 10px;
   margin-top: 10px;
 }
+
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-content {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav-content li {
+  list-style: none;
+  margin-right: 10%;
+  display: inline-block;
+  color: white;
+}

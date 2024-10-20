@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 
 const ToolBar = () => {
   return (
@@ -25,17 +26,29 @@ const ToolBar = () => {
           </div>
         </div>
         <div className="container">
-          <div className="mt-3 mb-3">
-            <a className="navbar-brand" href="#">
-              <img
-                src="https://msk.tortomaster.ru/bitrix/templates/tort_adapt_new/images/logo.svg?2024"
-                alt="Sweet cake" width="200" height="100"/>
-            </a>
+          <div className='navigation'>
+            <div className="mt-3 mb-3">
+              <a className="navbar-brand" href="#">
+                <img
+                  src="https://msk.tortomaster.ru/bitrix/templates/tort_adapt_new/images/logo.svg?2024"
+                  alt="Sweet cake" width="200" height="100"/>
+              </a>
+            </div>
+            <nav className="nav-content">
+              <li>
+                <NavLink className="text-white fs-4 text-decoration-none" to="/">Главная</NavLink>
+              </li>
+              <li>
+                <NavLink className="text-white fs-4 text-decoration-none" to="/aboutUs">О нас</NavLink>
+              </li>
+              <li>
+                <NavLink className="text-white fs-4 text-decoration-none" to="/ourProducts">Наши изделия</NavLink>
+              </li>
+            </nav>
           </div>
         </div>
       </nav>
     </div>
-
   );
 };
 
