@@ -1,7 +1,10 @@
+import SweetHome from './Containers/SweetHome/SweetHome.tsx';
+import './App.css';
+
 const App = () => {
   return (
     <>
-      I'm starting my home work #62! ^_^
+      <SweetHome/>
     </>
   );
 };

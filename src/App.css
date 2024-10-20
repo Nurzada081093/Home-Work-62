@@ -1,0 +1,17 @@
+.header-block {
+  background: url("https://img.freepik.com/premium-photo/red-velvet-summer-fruit-cake_109285-726.jpg?w=740") center center no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.header-info {
+  background-color: rgba(172, 162, 162, 0.84);
+  width: 100%;
+  color: white;
+  align-items: center;
+  padding: 10px 0;
+}
+
+
