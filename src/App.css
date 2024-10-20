@@ -7,7 +7,7 @@
 }
 
 .header-info {
-  background-color: rgba(172, 162, 162, 0.84);
+  background-color: rgba(83, 82, 82, 0.84);
   width: 100%;
   color: white;
   align-items: center;
@@ -15,3 +15,148 @@
 }
 
 
+.cake-card {
+  width: 280px;
+  height: 280px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.cake-card img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.cake-card img:hover {
+  transform: scale(1.3);
+}
+
+.custom-btn {
+  width: 250px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+  7px 7px 20px 0px rgba(0,0,0,.1),
+  4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+.btn-12{
+  position: relative;
+  right: 28px;
+  bottom: 20px;
+  border:none;
+  box-shadow: none;
+  width: 250px;
+  height: 40px;
+  line-height: 42px;
+  -webkit-perspective: 230px;
+  perspective: 230px;
+}
+.btn-12 span {
+  background: rgb(0,172,238);
+  background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+  display: block;
+  position: absolute;
+  width: 250px;
+  height: 40px;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+  7px 7px 20px 0px rgba(0,0,0,.1),
+  4px 4px 5px 0px rgba(0,0,0,.1);
+  border-radius: 5px;
+  margin:0;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+.btn-12 span:nth-child(1) {
+  box-shadow:
+    -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001;
+  -webkit-transform: rotateX(90deg);
+  -moz-transform: rotateX(90deg);
+  transform: rotateX(90deg);
+  -webkit-transform-origin: 50% 50% -20px;
+  -moz-transform-origin: 50% 50% -20px;
+  transform-origin: 50% 50% -20px;
+}
+.btn-12 span:nth-child(2) {
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+  -webkit-transform-origin: 50% 50% -20px;
+  -moz-transform-origin: 50% 50% -20px;
+  transform-origin: 50% 50% -20px;
+}
+.btn-12:hover span:nth-child(1) {
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+  7px 7px 20px 0px rgba(0,0,0,.1),
+  4px 4px 5px 0px rgba(0,0,0,.1);
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+.btn-12:hover span:nth-child(2) {
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+  7px 7px 20px 0px rgba(0,0,0,.1),
+  4px 4px 5px 0px rgba(0,0,0,.1);
+  color: transparent;
+  -webkit-transform: rotateX(-90deg);
+  -moz-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid white;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.about-block {
+  background: url("https://img.freepik.com/free-photo/ai-generated-cake-picture_23-2150649282.jpg?t=st=1729454791~exp=1729458391~hmac=60b9198f818766218819c195ade8f00ebf81f5e28e7a169c1c9a409e466f20b4&w=826") center center no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.about-us {
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  padding: 50px;
+  background-color: rgba(51, 43, 43, 0.84);
+  margin-bottom: 40px;
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.team img {
+  width: 230px;
+  height: 250px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
