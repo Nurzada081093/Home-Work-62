@@ -175,13 +175,6 @@
   flex-wrap: wrap;
 }
 
-.nav-content li {
-  list-style: none;
-  margin-right: 10%;
-  display: inline-block;
-  color: white;
-}
-
 .home-container {
   background: url("https://mur-mur.top/uploads/posts/2023-05/1682963409_mur-mur-top-p-chernii-tort-s-yagodami-krasivo-14.jpg") center center no-repeat;
   background-size: cover;
@@ -369,3 +362,49 @@
   background-color: black;
   color: white;
 }
+
+.nav-list {
+  font-size: 20px;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-content .inactive,
+.list-aside .inactive {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-content .active,
+.list-aside .active {
+  color: rgba(241, 237, 11, 0.78);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.game-board {
+  width: 500px;
+  margin: 20px auto 10px;
+}
+
+.content {
+  width: 500px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.list-aside {
+  width: 220px;
+  border-right: 1px solid white;
+  margin-right: 25px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+
