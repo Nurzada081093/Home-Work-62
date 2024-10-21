@@ -36,13 +36,13 @@ const ToolBar = () => {
             </div>
             <nav className="nav-content">
               <li>
-                <NavLink className="text-white fs-4 text-decoration-none" to="/">Главная</NavLink>
+                <NavLink className="text-white fs-5 text-decoration-none " to="/">Главная</NavLink>
               </li>
               <li>
-                <NavLink className="text-white fs-4 text-decoration-none" to="/aboutUs">О нас</NavLink>
+                <NavLink className="text-white fs-5 text-decoration-none" to="/aboutUs">О нас</NavLink>
               </li>
               <li>
-                <NavLink className="text-white fs-4 text-decoration-none" to="/ourProducts">Наши изделия</NavLink>
+                <NavLink className="text-white fs-5 text-decoration-none" to="/ourProducts">Наши изделия</NavLink>
               </li>
             </nav>
           </div>
